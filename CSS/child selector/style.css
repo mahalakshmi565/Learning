@@ -1,0 +1,10 @@
+/* style the all child of div which are h1 */
+div > h1{
+    background-color: aqua;
+
+}
+/* style alll the child of div which are li(discendent) */
+div li{
+    background-color: blueviolet;
+    
+}

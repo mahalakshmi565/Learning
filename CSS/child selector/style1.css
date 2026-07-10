@@ -1,0 +1,23 @@
+
+/* Make only the direct <p> children of .container text color blue. */
+.container > p{
+    color: blue;
+}
+/* Make only the <p> that is a direct child of .box background yellow. */
+.box > p{
+    background-color: yellow;
+}
+/* Change font size of the <p> that is direct child of article to 24px. */
+article>p{
+    font-size: 24px;
+}
+/* Give a red border to the <section> that is a direct child of .container. */
+.container>section{
+    border: 20px solid red;
+}
+.container > p{
+    font-weight: bold ;
+}
+.container>p:last-child{
+    color: green;
+}

@@ -1,0 +1,9 @@
+/* style the child of div which are h1 */
+div > h1{
+    background-color: aqua;
+}
+
+/* decendent */
+div ul{
+    background-color: aquamarine;
+}
